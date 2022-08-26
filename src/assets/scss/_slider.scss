@@ -617,9 +617,9 @@
     }
     &--style2 {
       h3 {
-        color: #ab87cd;
+        color: #ffd700;
         &:before {
-          background-color: #ab87cd;
+          background-color: #ffd700;
           @media #{$sm-layout} {
             left: 45px;
           }
@@ -627,8 +627,8 @@
       }
       .slider-btn {
         a {
-          border: 1px solid #ab87cd;
-          background-color: #ab87cd;
+          border: 1px solid #ffd700;
+          background-color: #ffd700;
         }
       }
     }
@@ -1628,7 +1628,7 @@
       border: 1px solid #333;
       &:hover {
         color: #fff;
-        border: 1px solid #a749ff;
+        border: 1px solid #ffd700;
       }
       @media #{$md-layout} {
         padding: 15px 35px 15px;
@@ -1915,7 +1915,7 @@
       border: 1px solid #333;
       &:hover {
         color: #fff;
-        border: 1px solid #a749ff;
+        border: 1px solid #ffd700;
       }
     }
   }

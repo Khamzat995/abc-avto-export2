@@ -1671,12 +1671,12 @@
   &.pro-puce-color {
     .product-img {
       span.puce {
-        color: #de3e3e;
+        color: #ffd700;
       }
       .product-action-2 {
         a,
         button {
-          background-color: #de3e3e;
+          background-color: #ffd700;
           &:hover {
             color: #000;
             background-color: #fff;
@@ -1687,15 +1687,15 @@
     .product-content-2 {
       .pro-wishlist-2 a:hover,
       .pro-wishlist-2 button:hover {
-        color: #de3e3e;
+        color: #ffd700;
       }
       .title-price-wrap-2 {
         h3 a:hover {
-          color: #de3e3e;
+          color: #ffd700;
         }
         .price-2 {
           span.old {
-            color: #de3e3e;
+            color: #ffd700;
           }
         }
       }
@@ -1963,7 +1963,7 @@
           border: none;
           border-radius: 50px;
           background: none;
-          background-color: #a749ff;
+          background-color: #ffd700;
           &:hover,
           &.active {
             background-color: #fa6bff;
@@ -2331,7 +2331,7 @@
     text-align: center;
 
     opacity: 1;
-    background: none repeat scroll 0 0 #a749ff;
+    background: none repeat scroll 0 0 #ffd700;
     .pro-same-action {
       margin: 0 2px;
       a,
