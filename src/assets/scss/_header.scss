@@ -96,8 +96,21 @@
   @media #{$md-layout} {
     margin-top: 0;
   }
+  img {
+    max-width: 250px;
+  }
+  @media (max-width: 1200px) {
+    img {
+      max-width: 190px;
+     }
+    }
+  
+
   @media #{$xs-layout} {
     margin-top: 0;
+    img {
+      max-width: 190px;
+    }
   }
   &.logo-hm5 {
     margin-top: 41px;
@@ -984,8 +997,10 @@
   }
 }
 .header-offer {
+  display: flex;
   p {
     margin: 0;
+    margin-right: 5px; 
 
     letter-spacing: 0.8px;
 
@@ -1009,6 +1024,10 @@
   }
   .same-language-currency {
     position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 
     margin-right: 54px;
     @media #{$xs-layout} {
@@ -2508,3 +2527,4 @@
     }
   }
 }
+

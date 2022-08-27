@@ -182,3 +182,73 @@
     }
   }
 }
+/* pulse phone */
+.pulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fdd700;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
+  font-size: 40px;
+}
+
+.pulse:before,
+.pulse:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #fdd700;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+	opacity: 0;
+	backface-visibility: hidden; 
+}
+
+.pulse:after{
+	animation-delay: .5s;
+}
+
+@keyframes animate
+{
+0%
+{
+    transform: scale(0.5);
+    opacity: 0;
+}
+50%
+{
+    opacity: 1;
+}
+100%
+{
+    transform: scale(1.2);
+    opacity: 0;
+}
+}
+
+  @media #{$xs-layout} {
+    .pulse  {
+      margin-top: 95px;
+      width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+      /* margin-bottom: 60px; */
+    }
+  }
+
+
+
+

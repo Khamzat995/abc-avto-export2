@@ -21,13 +21,16 @@ const MedicalContact = () => {
             <div className="row align-items-center">
               <div className="col-lg-3 col-md-2">
                 <div className="medical-shape-img">
-                  <img
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/assets/img/icon-img/medical-contact-shape.png"
-                    }
-                    alt=""
-                  />
+                  <div class="pulse">
+                    <i class="fa fa-phone"></i>
+                    {/*   <img
+                      src={
+                        process.env.PUBLIC_URL +
+                        "/assets/img/icon-img/medical-contact-shape.png"
+                      }
+                      alt=""
+                    /> */}
+                  </div>
                 </div>
               </div>
               <div className="col-lg-9 col-md-10">

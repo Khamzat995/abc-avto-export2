@@ -14,9 +14,8 @@ const HeaderTop = ({
 }) => {
   return (
     <div
-      className={`header-top-wap ${
-        borderStyle === "fluid-border" ? "border-bottom" : ""
-      }`}
+      className={`header-top-wap ${borderStyle === "fluid-border" ? "border-bottom" : ""
+        }`}
     >
       <LanguageCurrencyChanger
         currency={currency}
@@ -25,11 +24,14 @@ const HeaderTop = ({
         dispatch={dispatch}
       />
       <div className="header-offer">
+        <p>Партнерская программа</p>
+        <p style={{ color: "#ffd700" }}> AVTO-EXPORT </p>
+        <p> скидки от </p>
+
         <p>
-          Free delivery on order over{" "}
           <span>
-            {currency.currencySymbol + (200 * currency.currencyRate).toFixed(2)}
-          </span>
+            {/* {currency.currencySymbol + (200 * currency.currencyRate).toFixed(2)} */}
+            10%</span>
         </p>
       </div>
     </div>
