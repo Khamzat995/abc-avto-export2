@@ -41,6 +41,8 @@ const MobileLangCurrChange = ({
           <option value="en">English</option>
           <option value="fn">French</option>
           <option value="de">Germany</option>
+          <option value="ru">Russian</option>
+          <option value="tr">Turkish</option>
         </select>
       </div>
       <div className="lang-curr-style">
@@ -54,7 +56,8 @@ const MobileLangCurrChange = ({
         >
           <option value="USD">USD</option>
           <option value="EUR">EUR</option>
-          <option value="GBP">GBP</option>
+          <option value="TRY">TRY</option>
+          <option value="RUB">RUB</option>
         </select>
       </div>
     </div>

@@ -6,11 +6,10 @@ import { multilanguage } from "redux-multilanguage";
 const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
   return (
     <div
-      className={` ${
-        sidebarMenu
+      className={` ${sidebarMenu
           ? "sidebar-menu"
           : `main-menu ${menuWhiteClass ? menuWhiteClass : ""}`
-      } `}
+        } `}
     >
       <nav>
         <ul>
@@ -222,7 +221,7 @@ const NavMenu = ({ strings, menuWhiteClass, sidebarMenu }) => {
                   </li>
                   <li>
                     <Link
-                      to={process.env.PUBLIC_URL + "/home-medical-equipment"}
+                      to={process.env.PUBLIC_URL + "/home-maine-page"}
                     >
                       {strings["home_medical_equipment"]}
                     </Link>

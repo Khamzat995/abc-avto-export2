@@ -51,8 +51,8 @@ const HomeAutoParts = lazy(() => import("./pages/home/HomeAutoParts"));
 const HomeCakeShop = lazy(() => import("./pages/home/HomeCakeShop"));
 const HomeHandmade = lazy(() => import("./pages/home/HomeHandmade"));
 const HomePetFood = lazy(() => import("./pages/home/HomePetFood"));
-const HomeMedicalEquipment = lazy(() =>
-  import("./pages/home/HomeMedicalEquipment")
+const HomeMainPage = lazy(() =>
+  import("./pages/home/HomeMainPage")
 );
 const HomeChristmas = lazy(() => import("./pages/home/HomeChristmas"));
 const HomeBlackFriday = lazy(() => import("./pages/home/HomeBlackFriday"));
@@ -116,7 +116,9 @@ const App = (props) => {
         languages: {
           en: require("./translations/english.json"),
           fn: require("./translations/french.json"),
-          de: require("./translations/germany.json")
+          de: require("./translations/germany.json"),
+          ru: require("./translations/russian.json"),
+          tr: require("./translations/turkish.json")
         }
       })
     );
@@ -278,8 +280,8 @@ const App = (props) => {
                   component={HomePetFood}
                 />
                 <Route
-                  path={process.env.PUBLIC_URL + "/home-medical-equipment"}
-                  component={HomeMedicalEquipment}
+                  path={process.env.PUBLIC_URL + "/home-maine-page"}
+                  component={HomeMainPage}
                 />
                 <Route
                   path={process.env.PUBLIC_URL + "/home-christmas"}

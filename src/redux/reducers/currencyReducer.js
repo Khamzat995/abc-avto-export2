@@ -26,10 +26,18 @@ const currencyReducer = (state = initState, action) => {
         currencyName
       };
     }
-    if (currencyName === "GBP") {
+    if (currencyName === "TRY") {
       return {
         ...state,
-        currencySymbol: "£",
+        currencySymbol: "₺",
+        currencyRate: action.payload.currencyRate,
+        currencyName
+      };
+    }
+    if (currencyName === "RUB") {
+      return {
+        ...state,
+        currencySymbol: "₽",
         currencyRate: action.payload.currencyRate,
         currencyName
       };

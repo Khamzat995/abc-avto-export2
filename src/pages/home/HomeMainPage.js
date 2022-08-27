@@ -3,8 +3,8 @@ import MetaTags from "react-meta-tags";
 import LayoutOne from "../../layouts/LayoutOne";
 import HeroSliderTwentyFive from "../../wrappers/hero-slider/HeroSliderTwentyFive";
 import BannerTwentyFive from "../../wrappers/banner/BannerTwentyFive";
-import FeatureIconFive from "../../wrappers/feature-icon/FeatureIconFive";
-import FeatureIconEight from "../../wrappers/feature-icon/FeatureIconEight";
+/* import FeatureIconFive from "../../wrappers/feature-icon/FeatureIconFive";
+import FeatureIconEight from "../../wrappers/feature-icon/FeatureIconEight"; */
 import TabProductSixteen from "../../wrappers/product/TabProductSixteen";
 import BlogFeaturedFour from "../../wrappers/blog-featured/BlogFeaturedFour";
 import MedicalContact from "../../components/contact/MedicalContact";
@@ -12,7 +12,7 @@ import BannerTwentySix from "../../wrappers/banner/BannerTwentySix";
 import ProductSlider from "../../wrappers/product/ProductSlider";
 import ImageSliderTwo from "../../wrappers/image-slider/ImageSliderTwo";
 
-const HomeMedicalEquipment = () => {
+const HomeMainPage = () => {
   return (
     <Fragment>
       <MetaTags>
@@ -55,4 +55,4 @@ const HomeMedicalEquipment = () => {
   );
 };
 
-export default HomeMedicalEquipment;
+export default HomeMainPage;

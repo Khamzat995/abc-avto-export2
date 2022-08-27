@@ -92,6 +92,7 @@
 }
 .logo {
   margin-top: 32px;
+  margin-bottom: 10px;
   @media #{$md-layout} {
     margin-top: 0;
   }
@@ -411,6 +412,7 @@
 .stick .logo,
 .stick .header-right-wrap {
   margin-top: 22px;
+  margin-bottom: 10px;
   @media #{$md-layout} {
     margin-top: 0;
   }
