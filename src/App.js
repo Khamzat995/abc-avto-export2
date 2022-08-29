@@ -8,8 +8,8 @@ import { connect } from "react-redux";
 import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
 
 // home pages
-const HomeFashion = lazy(() => import("./pages/home/HomeFashion"));
-const HomeFashionTwo = lazy(() => import("./pages/home/HomeFashionTwo"));
+/* const HomeFashion = lazy(() => import("./pages/home/HomeFashion")); */
+/* const HomeFashionTwo = lazy(() => import("./pages/home/HomeFashionTwo"));
 const HomeFashionThree = lazy(() => import("./pages/home/HomeFashionThree"));
 const HomeFashionFour = lazy(() => import("./pages/home/HomeFashionFour"));
 const HomeFashionFive = lazy(() => import("./pages/home/HomeFashionFive"));
@@ -44,39 +44,39 @@ const HomeFlowerShopTwo = lazy(() => import("./pages/home/HomeFlowerShopTwo"));
 const HomeOrganicFood = lazy(() => import("./pages/home/HomeOrganicFood"));
 const HomeOrganicFoodTwo = lazy(() =>
   import("./pages/home/HomeOrganicFoodTwo")
-);
-const HomeOnepageScroll = lazy(() => import("./pages/home/HomeOnepageScroll"));
+); */
+/* const HomeOnepageScroll = lazy(() => import("./pages/home/HomeOnepageScroll"));
 const HomeGridBanner = lazy(() => import("./pages/home/HomeGridBanner"));
 const HomeAutoParts = lazy(() => import("./pages/home/HomeAutoParts"));
 const HomeCakeShop = lazy(() => import("./pages/home/HomeCakeShop"));
 const HomeHandmade = lazy(() => import("./pages/home/HomeHandmade"));
-const HomePetFood = lazy(() => import("./pages/home/HomePetFood"));
+const HomePetFood = lazy(() => import("./pages/home/HomePetFood")); */
 const HomeMainPage = lazy(() =>
   import("./pages/home/HomeMainPage")
 );
-const HomeChristmas = lazy(() => import("./pages/home/HomeChristmas"));
+/* const HomeChristmas = lazy(() => import("./pages/home/HomeChristmas"));
 const HomeBlackFriday = lazy(() => import("./pages/home/HomeBlackFriday"));
 const HomeBlackFridayTwo = lazy(() =>
   import("./pages/home/HomeBlackFridayTwo")
 );
-const HomeValentinesDay = lazy(() => import("./pages/home/HomeValentinesDay"));
+const HomeValentinesDay = lazy(() => import("./pages/home/HomeValentinesDay")); */
 
 // shop pages
 const ShopGridStandard = lazy(() => import("./pages/shop/ShopGridStandard"));
-const ShopGridFilter = lazy(() => import("./pages/shop/ShopGridFilter"));
+/*const ShopGridFilter = lazy(() => import("./pages/shop/ShopGridFilter")); */
 const ShopGridTwoColumn = lazy(() => import("./pages/shop/ShopGridTwoColumn"));
-const ShopGridNoSidebar = lazy(() => import("./pages/shop/ShopGridNoSidebar"));
+/* const ShopGridNoSidebar = lazy(() => import("./pages/shop/ShopGridNoSidebar"));
 const ShopGridFullWidth = lazy(() => import("./pages/shop/ShopGridFullWidth"));
 const ShopGridRightSidebar = lazy(() =>
   import("./pages/shop/ShopGridRightSidebar")
 );
 const ShopListStandard = lazy(() => import("./pages/shop/ShopListStandard"));
 const ShopListFullWidth = lazy(() => import("./pages/shop/ShopListFullWidth"));
-const ShopListTwoColumn = lazy(() => import("./pages/shop/ShopListTwoColumn"));
+const ShopListTwoColumn = lazy(() => import("./pages/shop/ShopListTwoColumn")); */
 
 // product pages
 const Product = lazy(() => import("./pages/shop-product/Product"));
-const ProductTabLeft = lazy(() =>
+/* const ProductTabLeft = lazy(() =>
   import("./pages/shop-product/ProductTabLeft")
 );
 const ProductTabRight = lazy(() =>
@@ -86,12 +86,12 @@ const ProductSticky = lazy(() => import("./pages/shop-product/ProductSticky"));
 const ProductSlider = lazy(() => import("./pages/shop-product/ProductSlider"));
 const ProductFixedImage = lazy(() =>
   import("./pages/shop-product/ProductFixedImage")
-);
+); */
 
 // blog pages
 const BlogStandard = lazy(() => import("./pages/blog/BlogStandard"));
-const BlogNoSidebar = lazy(() => import("./pages/blog/BlogNoSidebar"));
-const BlogRightSidebar = lazy(() => import("./pages/blog/BlogRightSidebar"));
+/* const BlogNoSidebar = lazy(() => import("./pages/blog/BlogNoSidebar"));
+const BlogRightSidebar = lazy(() => import("./pages/blog/BlogRightSidebar")); */
 const BlogDetailsStandard = lazy(() =>
   import("./pages/blog/BlogDetailsStandard")
 );
@@ -143,11 +143,11 @@ const App = (props) => {
                 <Route
                   exact
                   path={process.env.PUBLIC_URL + "/"}
-                  component={HomeFashion}
+                  component={HomeMainPage}
                 />
 
                 {/* Homepages */}
-                <Route
+                {/* <Route
                   path={process.env.PUBLIC_URL + "/home-fashion"}
                   component={HomeFashion}
                 />
@@ -278,12 +278,12 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/home-pet-food"}
                   component={HomePetFood}
-                />
-                <Route
+                /> */}
+                {/*  <Route
                   path={process.env.PUBLIC_URL + "/home-maine-page"}
                   component={HomeMainPage}
-                />
-                <Route
+                /> */}
+                {/* <Route
                   path={process.env.PUBLIC_URL + "/home-christmas"}
                   component={HomeChristmas}
                 />
@@ -298,22 +298,22 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/home-valentines-day"}
                   component={HomeValentinesDay}
-                />
+                /> */}
 
                 {/* Shop pages */}
                 <Route
                   path={process.env.PUBLIC_URL + "/shop-grid-standard"}
                   component={ShopGridStandard}
                 />
-                <Route
+                {/*  <Route
                   path={process.env.PUBLIC_URL + "/shop-grid-filter"}
                   component={ShopGridFilter}
-                />
+                /> */}
                 <Route
                   path={process.env.PUBLIC_URL + "/shop-grid-two-column"}
                   component={ShopGridTwoColumn}
                 />
-                <Route
+                {/* <Route
                   path={process.env.PUBLIC_URL + "/shop-grid-no-sidebar"}
                   component={ShopGridNoSidebar}
                 />
@@ -336,7 +336,7 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/shop-list-two-column"}
                   component={ShopListTwoColumn}
-                />
+                /> */}
 
                 {/* Shop product pages */}
                 <Route
@@ -345,7 +345,7 @@ const App = (props) => {
                     <Product {...routeProps} key={routeProps.match.params.id} />
                   )}
                 />
-                <Route
+                {/* <Route
                   path={process.env.PUBLIC_URL + "/product-tab-left/:id"}
                   component={ProductTabLeft}
                 />
@@ -364,21 +364,22 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/product-fixed-image/:id"}
                   component={ProductFixedImage}
-                />
+                /> */}
+
 
                 {/* Blog pages */}
                 <Route
                   path={process.env.PUBLIC_URL + "/blog-standard"}
                   component={BlogStandard}
                 />
-                <Route
+                {/* <Route
                   path={process.env.PUBLIC_URL + "/blog-no-sidebar"}
                   component={BlogNoSidebar}
                 />
                 <Route
                   path={process.env.PUBLIC_URL + "/blog-right-sidebar"}
                   component={BlogRightSidebar}
-                />
+                /> */}
                 <Route
                   path={process.env.PUBLIC_URL + "/blog-details-standard"}
                   component={BlogDetailsStandard}

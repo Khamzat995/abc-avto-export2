@@ -1,16 +1,30 @@
 [
   {
     "id": 1,
-    "title": "Covid - 19 Collection",
-    "subtitle": "Medicine & PPE Stay Safe",
-    "image": "/assets/img/slider/slider-26.jpg",
+    "title": "Поставки",
+    "subtitle": "Дорожно строительная и спецтехника",
+    "image": "/assets/img/slider/slider-main-1.webp",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "title": "Covid - 19 Collection",
-    "subtitle": "Medicine & PPE Stay Safe",
-    "image": "/assets/img/slider/slider-27.jpg",
+    "title": "Техника",
+    "subtitle": "Навесное оборудование и запчасти",
+    "image": "/assets/img/slider/slider-main-2.webp",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 3,
+    "title": "Сервис и запчасти",
+    "subtitle": "Оперативная доставка комплектующих",
+    "image": "/assets/img/slider/slider-main-3.webp",
+    "url": "/shop-grid-standard"
+  },
+  {
+    "id": 4,
+    "title": "avto-export.com",
+    "subtitle": "Быстро, надежно и качественно",
+    "image": "/assets/img/slider/slider-main-4.webp",
     "url": "/shop-grid-standard"
   }
 ]
