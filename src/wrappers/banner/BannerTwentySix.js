@@ -12,19 +12,19 @@ const BannerTwentySix = ({ spaceBottomClass }) => {
               <a href="product-details.html">
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/banner/banner-43.png"
+                    process.env.PUBLIC_URL + "/assets/img/banner/masla_2.webp"
                   }
                   alt=""
                 />
               </a>
-              <div className="banner-content-33-2 banner-content-33-2-position1">
-                <h4>Covid - 19</h4>
+              <div className="banner-content-33-2 banner-content-33-2-position2">
+                <h4>Масло трансмиссионное </h4>
                 <h2>
-                  Medix Mask <br />
-                  Up To 40% Off
+                  Castrol <br />
+                  скидка 10%
                 </h2>
                 <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                  Shop Now
+                  Посмотреть
                 </Link>
               </div>
             </div>
@@ -34,18 +34,21 @@ const BannerTwentySix = ({ spaceBottomClass }) => {
               <a href="product-details.html">
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/banner/banner-44.png"
+                    process.env.PUBLIC_URL + "/assets/img/banner/masla_1.webp"
                   }
                   alt=""
                 />
               </a>
               <div className="banner-content-33-2 banner-content-33-2-position2">
+
                 <h2>
-                  Hand Gloves <br />
-                  Up To 30% Off
+                  Масло моторное <br />
+                  NEXPRO
                 </h2>
-                <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                  Shop Now
+
+                <h4 className="salefix">ограниченное предложение </h4>
+                <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
+                  Посмотреть
                 </Link>
               </div>
             </div>
@@ -55,19 +58,19 @@ const BannerTwentySix = ({ spaceBottomClass }) => {
               <a href="product-details.html">
                 <img
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/banner/banner-45.png"
+                    process.env.PUBLIC_URL + "/assets/img/banner/masla.webp"
                   }
                   alt=""
                 />
               </a>
-              <div className="banner-content-33-2 banner-content-33-2-position3">
-                <h4>Covid - 19</h4>
+              <div className="banner-content-33-2 banner-content-33-2-position2">
+                <h4>Масло трансмиссионное</h4>
                 <h2>
-                  Hand Sanitizer <br />
-                  Up To 40% Off
+                  CAT TDTO SAE30 <br />
+                  скидка 10%
                 </h2>
-                <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
-                  Shop Now
+                <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
+                  Посмотреть
                 </Link>
               </div>
             </div>

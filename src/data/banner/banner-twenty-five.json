@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-40.png",
-    "title": "Covid - 19",
-    "subtitle": "Medicine <br>& Equipment",
-    "text": "20% OFF",
-    "link": "/shop-grid-standard"
+    "image": "/assets/img/banner/002.webp",
+    "title": "Фронтальные погрузчики",
+    "subtitle": "Volvo <br> L70F  ",
+    "text": "скидка 10%",
+    "link": "/shop-grid-two-column"
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-41.png",
-    "title": "Covid - 19",
-    "subtitle": "Medix Mask <br>& Sanitizer",
-    "text": "30% OFF",
-    "link": "/shop-grid-standard"
+    "image": "/assets/img/banner/001.webp",
+    "title": "Мобильное дробильное оборудование",
+    "subtitle": "Sandvik <br> QJ341",
+    "text": "рассрочка 36 мес.",
+    "link": "/shop-grid-two-column"
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner-42.png",
-    "title": "Covid - 19",
-    "subtitle": "Hand Gloves <br>& Sanitizer",
-    "text": "40% OFF",
-    "link": "/shop-grid-standard"
+    "image": "/assets/img/banner/003.webp",
+    "title": "Экскаваторы-погрузчики",
+    "subtitle": "Mecalac <br> TLB990",
+    "text": "выгодно 100%",
+    "link": "/shop-grid-two-column"
   }
 ]

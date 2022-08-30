@@ -721,7 +721,7 @@
       font-size: 18px;
       font-weight: 600;
       line-height: 1;
-
+      color: white;
       margin: 0;
     }
     h2 {
@@ -731,7 +731,7 @@
 
       margin: 20px 0 0;
 
-      color: #3a3a3a;
+      color: white;
       @media #{$xx-layout} {
         font-size: 27px;
         line-height: 35px;
@@ -769,27 +769,27 @@
     bottom: 0;
     left: 0;
     h2 {
-      font-size: 60px;
+      font-size: 30px;
       font-weight: bold;
       line-height: 46px;
 
-      margin: 0;
+      margin: 15px;
 
-      color: #98bac7;
+      color: #ffd700;
       @media #{$xx-layout} {
-        font-size: 48px;
+        font-size: 30px;
         line-height: 37px;
       }
       @media #{$xl-layout} {
-        font-size: 48px;
+        font-size: 30px;
         line-height: 37px;
       }
       @media #{$lg-layout} {
-        font-size: 37px;
+        font-size: 32px;
         line-height: 28px;
       }
       @media #{$xs-layout} {
-        font-size: 37px;
+        font-size: 32px;
         line-height: 28px;
       }
     }
@@ -809,8 +809,10 @@
     top: 6%;
     right: 0;
     left: 0;
-
     text-align: center;
+    .salefix {
+      margin-top: 60px;
+    }
   }
   .banner-content-33-2-position3 {
     position: absolute;
@@ -827,7 +829,7 @@
       font-size: 18px;
       font-weight: 600;
       line-height: 1;
-
+      
       margin: 0;
 
       color: #fff;
@@ -868,8 +870,8 @@
       color: #fff;
       border-bottom: 2px solid #fff;
       &:hover {
-        color: #000;
-        border-bottom: 2px solid #000;
+        color: #fdd700;
+        border-bottom: 2px solid #fdd700;
       }
     }
   }

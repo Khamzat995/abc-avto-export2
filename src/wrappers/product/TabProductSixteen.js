@@ -13,13 +13,12 @@ const TabProductSixteen = ({
 }) => {
   return (
     <div
-      className={`product-area ${spaceTopClass ? spaceTopClass : ""} ${
-        spaceBottomClass ? spaceBottomClass : ""
-      }`}
+      className={`product-area ${spaceTopClass ? spaceTopClass : ""} ${spaceBottomClass ? spaceBottomClass : ""
+        }`}
     >
       <div className="container">
         <SectionTitle
-          titleText="Our Products"
+          titleText="Наши предложения"
           positionClass="text-center"
           spaceClass="mb-30"
           borderClass="no-border"
@@ -27,23 +26,22 @@ const TabProductSixteen = ({
         <Tab.Container defaultActiveKey="bestSeller">
           <Nav
             variant="pills"
-            className={`product-tab-list-5 mb-60 justify-content-center ${
-              productTabClass ? productTabClass : ""
-            }`}
+            className={`product-tab-list-5 mb-60 justify-content-center ${productTabClass ? productTabClass : ""
+              }`}
           >
             <Nav.Item>
               <Nav.Link eventKey="newArrival">
-                <h4>New Arrivals</h4>
+                <h4>Новинки</h4>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="bestSeller">
-                <h4>Best Sellers</h4>
+                <h4>Популярные</h4>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="saleItems">
-                <h4>Sale Items</h4>
+                <h4>Со скидкой</h4>
               </Nav.Link>
             </Nav.Item>
           </Nav>

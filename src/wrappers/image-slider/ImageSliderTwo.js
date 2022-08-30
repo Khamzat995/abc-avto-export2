@@ -5,7 +5,7 @@ import imageData from "../../data/image-slider/image-slider-two.json";
 
 const ImageSliderTwo = () => {
   const settings = {
-    loop: false,
+    loop: true,
     grabCursor: true,
     breakpoints: {
       1024: {
