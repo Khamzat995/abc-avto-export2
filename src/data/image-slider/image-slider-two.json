@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "image": "/assets/img/image-slider/man.webp",
+    "image": "/assets/img/image-slider/holland1.webp",
     "link": "/shop-grid-standard"
   },
   {
@@ -26,47 +26,22 @@
   },
   {
     "id": "6",
-    "image": "/assets/img/image-slider/ford.webp",
+    "image": "/assets/img/image-slider/case.webp",
     "link": "/shop-grid-standard"
   },
   {
     "id": "7",
-    "image": "/assets/img/image-slider/reno.webp",
+    "image": "/assets/img/image-slider/man.webp",
     "link": "/shop-grid-standard"
   },
   {
     "id": "8",
-    "image": "/assets/img/image-slider/isuzu.webp",
+    "image": "/assets/img/image-slider/doosan1.webp",
     "link": "/shop-grid-standard"
   },
   {
     "id": "9",
-    "image": "/assets/img/image-slider/chkoda.webp",
-    "link": "/shop-grid-standard"
-  },
-  {
-    "id": "10",
-    "image": "/assets/img/image-slider/maybah.webp",
-    "link": "/shop-grid-standard"
-  },
-  {
-    "id": "11",
-    "image": "/assets/img/image-slider/mitsubichi.webp",
-    "link": "/shop-grid-standard"
-  },
-  {
-    "id": "12",
-    "image": "/assets/img/image-slider/infiniti.webp",
-    "link": "/shop-grid-standard"
-  },
-  {
-    "id": "13",
-    "image": "/assets/img/image-slider/porshe.webp",
-    "link": "/shop-grid-standard"
-  },
-  {
-    "id": "14",
-    "image": "/assets/img/image-slider/subaru.webp",
+    "image": "/assets/img/image-slider/reno.webp",
     "link": "/shop-grid-standard"
   }
 ]
