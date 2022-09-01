@@ -270,7 +270,7 @@
         color: #fff;
         border-radius: 3px;
         &.pink {
-          background-color: #fa6bff;
+          background-color: #008B8B;
         }
         &.purple {
           background-color: $theme-color;
@@ -1407,6 +1407,9 @@
 .product-wrap-2 {
   position: relative;
 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 5px;
+
   overflow: hidden;
   .product-img {
     position: relative;
@@ -1421,7 +1424,7 @@
       top: 20px;
       right: 20px;
       &.pink {
-        color: #fa6bff;
+        color: #008B8B;
       }
       &.red {
         color: #ff3d2a;
@@ -1507,13 +1510,13 @@
 
         margin-bottom: 10px;
         padding: 3px 11px;
-
+        /* background-color: #008b8b34; */
         border-radius: 3px;
         &.pink {
-          color: #fa6bff;
+          color: #ffd700;
         }
         &.purple {
-          color: $theme-color;
+          color: #FF6347;
         }
 
         &:last-child {
@@ -1553,7 +1556,7 @@
           &.old {
             text-decoration: line-through;
 
-            color: #fa6bff;
+            color: #008B8B;
             &.red {
               color: #ff3d2a;
             }
@@ -1864,7 +1867,7 @@
           background-color: $theme-color;
         }
         &.pink {
-          background-color: #fa6bff;
+          background-color: #008B8B;
         }
         &:last-child {
           margin-bottom: 0;
@@ -2307,7 +2310,7 @@
         background-color: $theme-color;
       }
       &.pink {
-        background-color: #fa6bff;
+        background-color: #008B8B;
       }
       &:last-child {
         margin-bottom: 0;

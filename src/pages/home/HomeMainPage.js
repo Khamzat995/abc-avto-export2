@@ -43,7 +43,7 @@ const HomeMainPage = () => {
         {/* banner */}
         <BannerTwentySix spaceBottomClass="pb-70" />
         {/* product slider */}
-        <ProductSlider category="medical" />
+        <ProductSlider category="запчасти" />
         {/* blog */}
         <BlogFeaturedFour spaceBottomClass="pb-55" spaceTopClass="pt-95" />
         {/* contact */}

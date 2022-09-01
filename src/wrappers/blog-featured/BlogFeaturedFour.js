@@ -7,14 +7,13 @@ import SectionTitle from "../../components/section-title/SectionTitle";
 const BlogFeaturedFour = ({ spaceTopClass, spaceBottomClass }) => {
   return (
     <div
-      className={`blog-area ${spaceTopClass ? spaceTopClass : ""} ${
-        spaceBottomClass ? spaceBottomClass : ""
-      }`}
+      className={`blog-area ${spaceTopClass ? spaceTopClass : ""} ${spaceBottomClass ? spaceBottomClass : ""
+        }`}
     >
       <div className="container">
         <SectionTitle
-          titleText="Latest News"
-          subtitleText="But I must explain to you how all this mistaken idea of denouncing."
+          titleText="Новости рынка спецтехники"
+          subtitleText="Актуальные новости и аналитика рынка строительной, дорожной и сельскохозяйственной техники."
           positionClass="text-center"
           spaceClass="mb-55"
           borderClass="no-border"

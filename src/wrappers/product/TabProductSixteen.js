@@ -18,7 +18,7 @@ const TabProductSixteen = ({
     >
       <div className="container">
         <SectionTitle
-          titleText="Наши предложения"
+          titleText="Техника"
           positionClass="text-center"
           spaceClass="mb-30"
           borderClass="no-border"

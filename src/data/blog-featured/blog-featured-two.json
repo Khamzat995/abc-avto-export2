@@ -1,29 +1,37 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/blog/blog-10.jpg",
-    "category": ["lifestyle", "men"],
-    "title": "A guide to latest trends",
-    "url": "/blog-details-standard",
-    "author": "Admin",
+    "image": "/assets/img/blog/analitik.webp",
+    "category": [
+      "Экономика",
+      "аналитика"
+    ],
+    "title": "Анализ рынка спецтехники до 2028 г.",
+    "url": "/blog-details-standard-one",
+    "author": "Мохъмад",
     "authorUrl": "/blog-standard"
   },
   {
     "id": 2,
-    "image": "/assets/img/blog/blog-11.jpg",
-    "category": ["lifestyle"],
-    "title": "Five ways to lead a happy life",
-    "url": "/blog-details-standard",
-    "author": "Admin",
+    "image": "/assets/img/blog/45mini.webp",
+    "category": [
+      "Бизнес",
+      "маркетинг"
+    ],
+    "title": "Возможности и движущие силы",
+    "url": "/blog-details-standard-two",
+    "author": "Ахмад",
     "authorUrl": "/blog-standard"
   },
   {
     "id": 3,
-    "image": "/assets/img/blog/blog-12.jpg",
-    "category": ["lifestyle"],
-    "title": "Tips on having a happy life",
-    "url": "/blog-details-standard",
-    "author": "Admin",
+    "image": "/assets/img/blog/46mini.webp",
+    "category": [
+      "Коммерция"
+    ],
+    "title": "Tемпы роста объемов продаж и доходов",
+    "url": "/blog-details-standard-free",
+    "author": "Ибрагим",
     "authorUrl": "/blog-standard"
   }
 ]

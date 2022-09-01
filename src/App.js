@@ -95,6 +95,15 @@ const BlogRightSidebar = lazy(() => import("./pages/blog/BlogRightSidebar")); */
 const BlogDetailsStandard = lazy(() =>
   import("./pages/blog/BlogDetailsStandard")
 );
+const BlogDetailsStandardOne = lazy(() =>
+  import("./pages/blog/BlogDetailsStandardOne")
+);
+const BlogDetailsStandardTwo = lazy(() =>
+  import("./pages/blog/BlogDetailsStandardTwo")
+);
+const BlogDetailsStandardFree = lazy(() =>
+  import("./pages/blog/BlogDetailsStandardFree")
+);
 
 // other pages
 const About = lazy(() => import("./pages/other/About"));
@@ -383,6 +392,18 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/blog-details-standard"}
                   component={BlogDetailsStandard}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/blog-details-standard-one"}
+                  component={BlogDetailsStandardOne}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/blog-details-standard-two"}
+                  component={BlogDetailsStandardTwo}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/blog-details-standard-free"}
+                  component={BlogDetailsStandardFree}
                 />
 
                 {/* Other pages */}
