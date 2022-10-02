@@ -26,7 +26,7 @@ const ImageSliderTwo = () => {
   return (
     <div className="image-slider-area">
       <div className="image-slider-active">
-        <Swiper {...settings}>
+        <Swiper {...settings} autoplay delayLength={1500}>
           {imageData &&
             imageData.map((single, key) => {
               return (

@@ -6,6 +6,7 @@ import { ToastProvider } from "react-toast-notifications";
 import { multilanguage, loadLanguages } from "redux-multilanguage";
 import { connect } from "react-redux";
 import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
+import { loadCurrency } from "./redux/actions/currencyActions";
 
 // home pages
 /* const HomeFashion = lazy(() => import("./pages/home/HomeFashion")); */
@@ -131,6 +132,8 @@ const App = (props) => {
         }
       })
     );
+
+    props.dispatch(loadCurrency())
   });
 
   return (
