@@ -4,7 +4,7 @@ const BlogComment = () => {
   return (
     <Fragment>
       <div className="blog-comment-wrapper mt-55">
-        <h4 className="blog-dec-title">comments : 02</h4>
+        <h4 className="blog-dec-title">комментарии : 02</h4>
         <div className="single-comment-wrapper mt-35">
           <div className="blog-comment-img">
             <img
@@ -41,7 +41,7 @@ const BlogComment = () => {
         </div>
       </div>
       <div className="blog-reply-wrapper mt-50">
-        <h4 className="blog-dec-title">post a comment</h4>
+        <h4 className="blog-dec-title">оставить комментарий</h4>
         <form className="blog-form">
           <div className="row">
             <div className="col-md-6">

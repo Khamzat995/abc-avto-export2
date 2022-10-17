@@ -470,6 +470,7 @@
 /* slider style-2 */
 .slider-content-2 {
   margin-top: -6px;
+  text-shadow: 1px 1px 2px black;
   @media #{$xs-layout} {
     text-align: center;
   }
@@ -2455,10 +2456,10 @@
     display: inline-block;
 
     padding: 18px 40px 16px;
-
+    text-shadow: none;
     color: #000;
     border: 1px solid transparent;
-    background-color: #fff;
+    background-color: #fed700;
     @media #{$xs-layout} {
       font-size: 16px;
 

@@ -50,7 +50,7 @@
           list-style: outside none none;
 
           letter-spacing: 1px;
-          text-transform: uppercase;
+          /* text-transform: uppercase; */
 
           color: #333;
           &::before {
@@ -128,7 +128,10 @@
   }
   .dec-img {
     img {
-      width: 100%;
+       width: 100%; 
+       
+      /* position: relative; */
+      /* background-size: 100% */
     }
     &.mb-50 {
       @media #{$xs-layout} {

@@ -2,7 +2,7 @@
 
 .single-banner {
   position: relative;
-
+  text-shadow: 1px 1px 2px black;
   overflow: hidden;
   a {
     img {
@@ -695,6 +695,7 @@
   }
   .banner-content-33 {
     position: absolute;
+    text-shadow: 1px 1px 2px black;
     top: 50px;
     left: 50px;
     @media #{$xx-layout} {
@@ -766,6 +767,7 @@
   }
   .banner-33-offer {
     position: absolute;
+    text-shadow: 1px 1px 2px black;
     bottom: 0;
     left: 0;
     h2 {

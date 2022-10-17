@@ -53,7 +53,7 @@ const BlogPost = () => {
                 <img
                   alt=""
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/blog/buklet_mini_3.webp"
+                    process.env.PUBLIC_URL + "/assets/img/blog/istanbul-most.webp"
                   }
                 />
               </a>

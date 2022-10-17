@@ -28,7 +28,7 @@ const BlogFeaturedSingle = ({ singlePost }) => {
               </Link>
             </h3>
             <span>
-              By{" "}
+              автор{" "}
               <Link to={process.env.PUBLIC_URL + singlePost.authorUrl}>
                 {singlePost.author}
               </Link>

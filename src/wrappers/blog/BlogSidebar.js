@@ -5,10 +5,10 @@ const BlogSidebar = () => {
   return (
     <div className="sidebar-style">
       <div className="sidebar-widget">
-        <h4 className="pro-sidebar-title">Search </h4>
+        <h4 className="pro-sidebar-title">Поиск </h4>
         <div className="pro-sidebar-search mb-55 mt-25">
           <form className="pro-sidebar-search-form" action="#">
-            <input type="text" placeholder="Search here..." />
+            <input type="text" placeholder="Найти здесь..." />
             <button>
               <i className="pe-7s-search" />
             </button>
@@ -16,7 +16,7 @@ const BlogSidebar = () => {
         </div>
       </div>
       <div className="sidebar-widget">
-        <h4 className="pro-sidebar-title">Recent Projects </h4>
+        <h4 className="pro-sidebar-title">Свежие проекты </h4>
         <div className="sidebar-project-wrap mt-30">
           <div className="single-sidebar-blog">
             <div className="sidebar-blog-img">
