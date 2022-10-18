@@ -5,8 +5,8 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BlogSidebar from "../../wrappers/blog/BlogSidebar";
-import BlogComment from "../../wrappers/blog/BlogComment";
 import BlogPostOne from "../../wrappers/blog/BlogPostOne";
+import BlogCommentOne from "../../wrappers/blog/BlogCommentOne";
 
 const BlogDetailsStandardOne = ({ location }) => {
   const { pathname } = location;
@@ -36,7 +36,7 @@ const BlogDetailsStandardOne = ({ location }) => {
                   <BlogPostOne />
 
                   {/* blog post comment */}
-                  <BlogComment />
+                  <BlogCommentOne />
                 </div>
               </div>
               <div className="col-lg-3">

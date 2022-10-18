@@ -5,8 +5,8 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import LayoutOne from "../../layouts/LayoutOne";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import BlogSidebar from "../../wrappers/blog/BlogSidebar";
-import BlogComment from "../../wrappers/blog/BlogComment";
-import BlogPost from "../../wrappers/blog/BlogPost";
+import BlogCommentTwo from "../../wrappers/blog/BlogCommentTwo";
+import BlogPostTwo from "../../wrappers/blog/BlogPostTwo";
 
 const BlogDetailsStandardTwo = ({ location }) => {
   const { pathname } = location;
@@ -14,15 +14,15 @@ const BlogDetailsStandardTwo = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Blog Post</title>
+        <title>AVTO-EXPORT | Blog post-2</title>
         <meta
           name="description"
           content="Blog post page of flone react minimalist eCommerce template."
         />
       </MetaTags>
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Главная</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Blog Post 2
+        Блог публикация 2
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
@@ -33,10 +33,10 @@ const BlogDetailsStandardTwo = ({ location }) => {
               <div className="col-lg-9">
                 <div className="blog-details-wrapper ml-20">
                   {/* blog post */}
-                  <BlogPost />
+                  <BlogPostTwo />
 
                   {/* blog post comment */}
-                  <BlogComment />
+                  <BlogCommentTwo />
                 </div>
               </div>
               <div className="col-lg-3">

@@ -125,12 +125,12 @@ const BlogPost = () => {
         </div>
       </div>
       <div className="next-previous-post">
-        <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+        <Link to={process.env.PUBLIC_URL + "/blog-details-standard-free"}>
           {" "}
-          <i className="fa fa-angle-left" /> предыдущий пост
+          <i className="fa fa-angle-left" /> Предыдущий пост
         </Link>
-        <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
-          следующий пост <i className="fa fa-angle-right" />
+        <Link to={process.env.PUBLIC_URL + "/blog-details-standard-two"}>
+          Следующий пост <i className="fa fa-angle-right" />
         </Link>
       </div>
     </Fragment>
