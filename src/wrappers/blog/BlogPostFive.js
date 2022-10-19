@@ -1,47 +1,45 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 
-const BlogPostOne = () => {
+const BlogPostFive = () => {
   return (
     <Fragment>
       <div className="blog-details-top">
         <div className="blog-details-img">
           <img
             alt=""
-            src={process.env.PUBLIC_URL + "/assets/img/blog/analitik_750.webp"}
+            src={process.env.PUBLIC_URL + "/assets/img/blog/750_500w10.webp"}
           />
         </div>
         <div className="blog-details-content">
           <div className="blog-meta-2">
             <ul>
-              <li>12 часов назад</li>
+              <li>8 часов назад</li>
               <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-one"}>
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-five"}>
                   4 <i className="fa fa-comments-o" />
                 </Link>
               </li>
             </ul>
           </div>
-          <h3>Анализ рынка спецтехники до 2028 г.</h3>
+          <h3>HIDROMEK произвела фурор на выставке Hillhead 2022</h3>
           <p>
-            Существенное повышение стоимости зафиксировано у 25 проанализированных
-            брендов гусеничных экскаваторов. В около 31% объявлений цены стали
-            указываться в долларах или евро (в середине 2022 — 12%). Кроме этого,
-            в отдельных сегментах увеличилось количество позиций с пометкой «Цена
-            по запросу». В частности, по этой причине в обзоре отсутствуют средние
-            значения для корейских и американских брендов (новая техника) — данных
-            для подсчёта, в отличие от осени прошлого года, оказалось недостаточно.{" "}
+            Выставка Hillhead 2022 впервые приняла более 600 экспонентов.
+            На стенде Hidromek были представлены экскаватор-погрузчик HMK
+            102B Supra, три гусеничных экскаватора серии H4, колесные
+            погрузчики HMK 635 WL и HMK 640 WL, а также различные
+            демонстрационные машины.{" "}
           </p>
           <blockquote>
-            Рост до 66%. Как изменились цены на гусеничные экскаваторы?
+            Hidromek удивила посетителей выставки Hillhead 2022 инновационным ассортиментом
           </blockquote>
           <p>
-            Несмотря на то, что ряд крупных брендов заявил о временной остановке
-            предприятий в России и/или приостановке поставок техники и запчастей
-            (Caterpillar, Komatsu, Hitachi, John Deere, Metso Outotec, Tadano,
-            Continental, Trimble и др.), на интернет-площадках на данный момент
-            не наблюдается снижения количества предложений. Соотношение объявлений
-            о продаже новой и б/у техники также осталось прежним: 57% / 43%.
+            Экскаваторы Hidromek серии H4 отличаются высокой рабочей скоростью,
+            производительностью и эффективностью благодаря новой конструкции
+            гидравлической системы. Обеспечивая максимальную безопасность и
+            долговечность, кабины серии спроектированы и построены в
+            соответствии со стандартами ROPS roll-over protective structure,
+            {" "}
           </p>
         </div>
       </div>
@@ -53,7 +51,7 @@ const BlogPostOne = () => {
                 <img
                   alt=""
                   src={
-                    process.env.PUBLIC_URL + "/assets/img/blog/istanbul-most.webp"
+                    process.env.PUBLIC_URL + "/assets/img/blog/buklet_mini_3.webp"
                   }
                 />
               </a>
@@ -73,19 +71,18 @@ const BlogPostOne = () => {
           </div>
         </div>
         <p>
-          На сегодняшний день ценники успели переписать и японские, и китайские,
-          и европейские бренды. Причём рост стоимости на отечественные машины
-          оказался наиболее существенным (в среднем на 58%). Но отметим, что в
-          случае указания конкретной цены в таких объявлениях, она зачастую была
-          прописана в долларах. Модели из Японии стали стоить на 39% дороже,
-          из Китая — на 40%.
+          — конструкция, защищённая от переворачивания, и FOPS
+          (falling-object protective structure — конструкция, защищённая от
+          опрокидывания). Красные рукоятки и предупредительные таблички на
+          машинах новой серии предназначены для повышения безопасности
+          оператора до самого высокого уровня.
         </p>
       </div>
       <div className="tag-share">
         <div className="dec-tag">
           <ul>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-one"}>
+            <Link to={process.env.PUBLIC_URL + "/blog-details-standard-one"}>
                 аналитика,
               </Link>
             </li>
@@ -140,11 +137,11 @@ const BlogPostOne = () => {
         </div>
       </div>
       <div className="next-previous-post">
-        <Link to={process.env.PUBLIC_URL + "/blog-details-standard-six"}>
+        <Link to={process.env.PUBLIC_URL + "/blog-details-standard-four"}>
           {" "}
           <i className="fa fa-angle-left" /> Предыдущий пост
         </Link>
-        <Link to={process.env.PUBLIC_URL + "/blog-details-standard-two"}>
+        <Link to={process.env.PUBLIC_URL + "/blog-details-standard-six"}>
           Следующий пост <i className="fa fa-angle-right" />
         </Link>
       </div>
@@ -152,4 +149,4 @@ const BlogPostOne = () => {
   );
 };
 
-export default BlogPostOne;
+export default BlogPostFive;

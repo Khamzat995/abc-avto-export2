@@ -16,7 +16,7 @@ const BlogPostFree = () => {
             <ul>
               <li>8 часов назад</li>
               <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-free"}>
                   4 <i className="fa fa-comments-o" />
                 </Link>
               </li>
@@ -82,18 +82,33 @@ const BlogPostFree = () => {
         <div className="dec-tag">
           <ul>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard-two"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-one"}>
+                аналитика,
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-free"}>
                 бизнес,
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard-free"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-two"}>
                 коммерция,
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                экономика
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-four"}>
+                технологии,
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-five"}>
+                новинки,
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-six"}>
+                интересное
               </Link>
             </li>
           </ul>
@@ -126,7 +141,7 @@ const BlogPostFree = () => {
           {" "}
           <i className="fa fa-angle-left" /> Предыдущий пост
         </Link>
-        <Link to={process.env.PUBLIC_URL + "/blog-details-standard-one"}>
+        <Link to={process.env.PUBLIC_URL + "/blog-details-standard-four"}>
           Следующий пост <i className="fa fa-angle-right" />
         </Link>
       </div>

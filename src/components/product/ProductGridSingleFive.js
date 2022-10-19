@@ -29,14 +29,12 @@ const ProductGridSingleFive = ({
   return (
     <Fragment>
       <div
-        className={`col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 ${
-          sliderClassName ? sliderClassName : ""
-        }`}
+        className={`col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 ${sliderClassName ? sliderClassName : ""
+          }`}
       >
         <div
-          className={`product-wrap-3 scroll-zoom ${
-            spaceBottomClass ? spaceBottomClass : ""
-          }`}
+          className={`product-wrap-3 scroll-zoom ${spaceBottomClass ? spaceBottomClass : ""
+            }`}
         >
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
@@ -91,8 +89,8 @@ const ProductGridSingleFive = ({
                       disabled={wishlistItem !== undefined}
                       title={
                         wishlistItem !== undefined
-                          ? "Added to wishlist"
-                          : "Add to wishlist"
+                          ? "Добавлено в избранные"
+                          : "Добавить в избранные"
                       }
                       onClick={() => addToWishlist(product, addToast)}
                     >
@@ -130,8 +128,8 @@ const ProductGridSingleFive = ({
                         }
                         title={
                           cartItem !== undefined
-                            ? "Added to cart"
-                            : "Add to cart"
+                            ? "Добавлено в корзину"
+                            : "Добавить "
                         }
                       >
                         {" "}
@@ -150,7 +148,7 @@ const ProductGridSingleFive = ({
                       disabled={compareItem !== undefined}
                       title={
                         compareItem !== undefined
-                          ? "Added to compare"
+                          ? "Добавлен to compare"
                           : "Add to compare"
                       }
                       onClick={() => addToCompare(product, addToast)}

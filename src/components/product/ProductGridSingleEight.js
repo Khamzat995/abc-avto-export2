@@ -31,14 +31,12 @@ const ProductGridSingleEight = ({
   return (
     <Fragment>
       <div
-        className={`col-xl-4 col-md-6 ${
-          sliderClassName ? sliderClassName : ""
-        }`}
+        className={`col-xl-4 col-md-6 ${sliderClassName ? sliderClassName : ""
+          }`}
       >
         <div
-          className={`product-wrap-8 ${
-            spaceBottomClass ? spaceBottomClass : ""
-          } ${colorClass ? colorClass : ""}`}
+          className={`product-wrap-8 ${spaceBottomClass ? spaceBottomClass : ""
+            } ${colorClass ? colorClass : ""}`}
         >
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
@@ -96,8 +94,8 @@ const ProductGridSingleEight = ({
                   disabled={wishlistItem !== undefined}
                   title={
                     wishlistItem !== undefined
-                      ? "Added to wishlist"
-                      : "Add to wishlist"
+                      ? "Добавлено в избранные"
+                      : "Добавить в избранные"
                   }
                   onClick={() => addToWishlist(product, addToast)}
                 >
@@ -131,7 +129,7 @@ const ProductGridSingleEight = ({
                     }
                     disabled={cartItem !== undefined && cartItem.quantity > 0}
                     title={
-                      cartItem !== undefined ? "Added to cart" : "Add to cart"
+                      cartItem !== undefined ? "Добавлено в корзину" : "Добавить "
                     }
                   >
                     <i className="pe-7s-cart"></i>
@@ -148,7 +146,7 @@ const ProductGridSingleEight = ({
                   disabled={compareItem !== undefined}
                   title={
                     compareItem !== undefined
-                      ? "Added to compare"
+                      ? "Добавлен to compare"
                       : "Add to compare"
                   }
                   onClick={() => addToCompare(product, addToast)}

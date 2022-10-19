@@ -16,7 +16,7 @@ const BlogPostTwo = () => {
             <ul>
               <li>12 часов назад</li>
               <li>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-two"}>
                   4 <i className="fa fa-comments-o" />
                 </Link>
               </li>
@@ -24,7 +24,7 @@ const BlogPostTwo = () => {
           </div>
           <h3>Возможности и движущие силы</h3>
           <p>
-            Мировой банк проанализировала статистические показатели 41 страны,
+            Мировой банк проанализировал статистические показатели 41 страны,
             формирующей 96% мирового ВВП. В выборку вошли США, Германия, Франция,
             Италия, Великобритания, Япония, Южная Корея, Турция, Нидерланды, Дания
             и др. По данным исследования, в тех секторах
@@ -86,18 +86,33 @@ const BlogPostTwo = () => {
         <div className="dec-tag">
           <ul>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard-two"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-one"}>
+                аналитика,
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-free"}>
                 бизнес,
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard-free"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-two"}>
                 коммерция,
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
-                экономика
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-four"}>
+                технологии,
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-five"}>
+                новинки,
+              </Link>
+            </li>
+            <li>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-six"}>
+                интересное
               </Link>
             </li>
           </ul>

@@ -30,9 +30,8 @@ const ProductGridListSingle = ({
   return (
     <Fragment>
       <div
-        className={`col-xl-4 col-sm-6 ${
-          sliderClassName ? sliderClassName : ""
-        }`}
+        className={`col-xl-4 col-sm-6 ${sliderClassName ? sliderClassName : ""
+          }`}
       >
         <div
           className={`product-wrap ${spaceBottomClass ? spaceBottomClass : ""}`}
@@ -74,8 +73,8 @@ const ProductGridListSingle = ({
                   disabled={wishlistItem !== undefined}
                   title={
                     wishlistItem !== undefined
-                      ? "Added to wishlist"
-                      : "Add to wishlist"
+                      ? "Добавлено в избранные"
+                      : "Добавить в избранные"
                   }
                   onClick={() => addToWishlist(product, addToast)}
                 >
@@ -106,18 +105,18 @@ const ProductGridListSingle = ({
                     }
                     disabled={cartItem !== undefined && cartItem.quantity > 0}
                     title={
-                      cartItem !== undefined ? "Added to cart" : "Add to cart"
+                      cartItem !== undefined ? "Добавлено в корзину" : "Добавить "
                     }
                   >
                     {" "}
                     <i className="pe-7s-cart"></i>{" "}
                     {cartItem !== undefined && cartItem.quantity > 0
-                      ? "Added"
-                      : "Add to cart"}
+                      ? "Добавлен"
+                      : "Добавить "}
                   </button>
                 ) : (
                   <button disabled className="active">
-                    Out of Stock
+                    Распродано
                   </button>
                 )}
               </div>
@@ -257,19 +256,19 @@ const ProductGridListSingle = ({
                         }
                         title={
                           cartItem !== undefined
-                            ? "Added to cart"
-                            : "Add to cart"
+                            ? "Добавлено в корзину"
+                            : "Добавить "
                         }
                       >
                         {" "}
                         <i className="pe-7s-cart"></i>{" "}
                         {cartItem !== undefined && cartItem.quantity > 0
-                          ? "Added"
-                          : "Add to cart"}
+                          ? "Добавлен"
+                          : "Добавить "}
                       </button>
                     ) : (
                       <button disabled className="active">
-                        Out of Stock
+                        Распродано
                       </button>
                     )}
                   </div>
@@ -280,8 +279,8 @@ const ProductGridListSingle = ({
                       disabled={wishlistItem !== undefined}
                       title={
                         wishlistItem !== undefined
-                          ? "Added to wishlist"
-                          : "Add to wishlist"
+                          ? "Добавлено в избранные"
+                          : "Добавить в избранные"
                       }
                       onClick={() => addToWishlist(product, addToast)}
                     >
@@ -294,8 +293,8 @@ const ProductGridListSingle = ({
                       disabled={compareItem !== undefined}
                       title={
                         compareItem !== undefined
-                          ? "Added to compare"
-                          : "Add to compare"
+                          ? "Добавлен для сравнения"
+                          : "Добавить для сравнения"
                       }
                       onClick={() => addToCompare(product, addToast)}
                     >

@@ -55,7 +55,7 @@ const MenuCart = ({ cartData, currency, deleteFromCart }) => {
                         : currency.currencySymbol + finalProductPrice}
                     </span>
                     {single.selectedProductColor &&
-                    single.selectedProductSize ? (
+                      single.selectedProductSize ? (
                       <div className="cart-item-variation">
                         <span>Color: {single.selectedProductColor}</span>
                         <span>Size: {single.selectedProductSize}</span>
@@ -94,7 +94,7 @@ const MenuCart = ({ cartData, currency, deleteFromCart }) => {
           </div>
         </Fragment>
       ) : (
-        <p className="text-center">No items added to cart</p>
+        <p className="text-center">В корзину не добавлены товары</p>
       )}
     </div>
   );

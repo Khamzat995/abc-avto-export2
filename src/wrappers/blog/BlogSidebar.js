@@ -20,7 +20,7 @@ const BlogSidebar = () => {
         <div className="sidebar-project-wrap mt-30">
           <div className="single-sidebar-blog">
             <div className="sidebar-blog-img">
-              <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-five"}>
                 <img
                   src={
                     process.env.PUBLIC_URL + "/assets/img/blog/blog-mini-4.webp"
@@ -32,7 +32,7 @@ const BlogSidebar = () => {
             <div className="sidebar-blog-content">
               <span>Новинки</span>
               <h4>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-five"}>
                   Hidromek model 2022
                 </Link>
               </h4>
@@ -40,7 +40,7 @@ const BlogSidebar = () => {
           </div>
           <div className="single-sidebar-blog">
             <div className="sidebar-blog-img">
-              <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-free"}>
                 <img
                   src={
                     process.env.PUBLIC_URL + "/assets/img/blog/46mini_70.webp"
@@ -52,7 +52,7 @@ const BlogSidebar = () => {
             <div className="sidebar-blog-content">
               <span>Бизнес</span>
               <h4>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-free"}>
                   Возможности и силы
                 </Link>
               </h4>
@@ -60,7 +60,7 @@ const BlogSidebar = () => {
           </div>
           <div className="single-sidebar-blog">
             <div className="sidebar-blog-img">
-              <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-two"}>
                 <img
                   src={
                     process.env.PUBLIC_URL + "/assets/img/blog/45mini_70.webp"
@@ -72,7 +72,7 @@ const BlogSidebar = () => {
             <div className="sidebar-blog-content">
               <span>Коммерция</span>
               <h4>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-two"}>
                   Темпы роста продаж
                 </Link>
               </h4>
@@ -80,7 +80,7 @@ const BlogSidebar = () => {
           </div>
           <div className="single-sidebar-blog">
             <div className="sidebar-blog-img">
-              <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/blog-details-standard-four"}>
                 <img
                   src={
                     process.env.PUBLIC_URL + "/assets/img/blog/technology.webp"
@@ -92,7 +92,7 @@ const BlogSidebar = () => {
             <div className="sidebar-blog-content">
               <span>Технологии </span>
               <h4>
-                <Link to={process.env.PUBLIC_URL + "/blog-details-standard"}>
+                <Link to={process.env.PUBLIC_URL + "/blog-details-standard-four"}>
                   Топ-10 технологий
                 </Link>
               </h4>
@@ -148,40 +148,40 @@ const BlogSidebar = () => {
         <div className="sidebar-widget-tag mt-25">
           <ul>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
                 Caterpillar
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
                 Komatsu
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
                 Hitachi
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>John Deere</Link>
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>John Deere</Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
                 Metso Outotec
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
                 Tadano
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
                 Continental
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/blog-standard"}>
+              <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
                 Trimble
               </Link>
             </li>

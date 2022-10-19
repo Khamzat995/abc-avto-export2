@@ -105,6 +105,15 @@ const BlogDetailsStandardTwo = lazy(() =>
 const BlogDetailsStandardFree = lazy(() =>
   import("./pages/blog/BlogDetailsStandardFree")
 );
+const BlogDetailsStandardFour = lazy(() =>
+  import("./pages/blog/BlogDetailsStandardFour")
+);
+const BlogDetailsStandardFive = lazy(() =>
+  import("./pages/blog/BlogDetailsStandardFive")
+);
+const BlogDetailsStandardSix = lazy(() =>
+  import("./pages/blog/BlogDetailsStandardSix")
+);
 
 // other pages
 const About = lazy(() => import("./pages/other/About"));
@@ -407,6 +416,18 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/blog-details-standard-free"}
                   component={BlogDetailsStandardFree}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/blog-details-standard-four"}
+                  component={BlogDetailsStandardFour}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/blog-details-standard-five"}
+                  component={BlogDetailsStandardFive}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/blog-details-standard-six"}
+                  component={BlogDetailsStandardSix}
                 />
 
                 {/* Other pages */}

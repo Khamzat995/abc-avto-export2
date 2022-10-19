@@ -31,14 +31,12 @@ const ProductGridSingleTwo = ({
   return (
     <Fragment>
       <div
-        className={`col-xl-3 col-md-6 col-lg-4 col-sm-6 ${
-          sliderClassName ? sliderClassName : ""
-        }`}
+        className={`col-xl-3 col-md-6 col-lg-4 col-sm-6 ${sliderClassName ? sliderClassName : ""
+          }`}
       >
         <div
-          className={`product-wrap-2 ${
-            spaceBottomClass ? spaceBottomClass : ""
-          } ${colorClass ? colorClass : ""} `}
+          className={`product-wrap-2 ${spaceBottomClass ? spaceBottomClass : ""
+            } ${colorClass ? colorClass : ""} `}
         >
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
@@ -98,7 +96,7 @@ const ProductGridSingleTwo = ({
                   }
                   disabled={cartItem !== undefined && cartItem.quantity > 0}
                   title={
-                    cartItem !== undefined ? "Added to cart" : "Add to cart"
+                    cartItem !== undefined ? "Добавлено в корзину" : "Добавить "
                   }
                 >
                   {" "}
@@ -119,8 +117,8 @@ const ProductGridSingleTwo = ({
                 disabled={compareItem !== undefined}
                 title={
                   compareItem !== undefined
-                    ? "Added to compare"
-                    : "Add to compare"
+                    ? "Добавлен для сравнения"
+                    : "Добавить для сравнения"
                 }
                 onClick={() => addToCompare(product, addToast)}
               >
@@ -130,9 +128,8 @@ const ProductGridSingleTwo = ({
           </div>
           <div className="product-content-2">
             <div
-              className={`title-price-wrap-2 ${
-                titlePriceClass ? titlePriceClass : ""
-              }`}
+              className={`title-price-wrap-2 ${titlePriceClass ? titlePriceClass : ""
+                }`}
             >
               <h3>
                 <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
@@ -160,8 +157,8 @@ const ProductGridSingleTwo = ({
                 disabled={wishlistItem !== undefined}
                 title={
                   wishlistItem !== undefined
-                    ? "Added to wishlist"
-                    : "Add to wishlist"
+                    ? "Добавлено в избранные"
+                    : "Добавить в избранные"
                 }
                 onClick={() => addToWishlist(product, addToast)}
               >

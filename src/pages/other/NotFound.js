@@ -12,15 +12,15 @@ const NotFound = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Not Found</title>
+        <title>AVTO-EXPORT | не найдена</title>
         <meta
           name="description"
           content="404 page of flone react minimalist eCommerce template."
         />
       </MetaTags>
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Главная</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        404 page
+        404 страница
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
@@ -31,17 +31,17 @@ const NotFound = ({ location }) => {
               <div className="col-xl-7 col-lg-8 text-center">
                 <div className="error">
                   <h1>404</h1>
-                  <h2>OPPS! PAGE NOT FOUND</h2>
+                  <h2>УПС! СТРАНИЦА НЕ НАЙДЕНА</h2>
                   <p>
-                    Sorry but the page you are looking for does not exist, have
-                    been removed, name changed or is temporarity unavailable.
+                    Извините, но страница, которую вы ищете, не существует,
+                    была удалена, изменено имя или временно недоступна.
                   </p>
                   <form className="searchform mb-50">
                     <input
                       type="text"
                       name="search"
                       id="error_search"
-                      placeholder="Search..."
+                      placeholder="Поиск..."
                       className="searchform__input"
                     />
                     <button type="submit" className="searchform__submit">
@@ -49,7 +49,7 @@ const NotFound = ({ location }) => {
                     </button>
                   </form>
                   <Link to={process.env.PUBLIC_URL + "/"} className="error-btn">
-                    Back to home page
+                    Вернуться на главную страницу
                   </Link>
                 </div>
               </div>

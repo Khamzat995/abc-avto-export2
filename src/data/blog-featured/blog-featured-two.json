@@ -3,35 +3,36 @@
     "id": 1,
     "image": "/assets/img/blog/analitik.webp",
     "category": [
-      "Экономика",
-      "аналитика"
+      "Аналитика",
+      "бизнес"
     ],
     "title": "Анализ рынка спецтехники до 2028 г.",
     "url": "/blog-details-standard-one",
-    "author": "Мохъмад",
+    "author": "Ахмад",
     "authorUrl": "/blog-standard"
   },
   {
     "id": 2,
     "image": "/assets/img/blog/460_spec.webp",
     "category": [
-      "Бизнес",
-      "маркетинг"
+      "Инвестиции",
+      "коммерция"
     ],
     "title": "Возможности и движущие силы",
     "url": "/blog-details-standard-two",
-    "author": "Ахмад",
+    "author": "Ибрагим",
     "authorUrl": "/blog-standard"
   },
   {
     "id": 3,
     "image": "/assets/img/blog/46mini.webp",
     "category": [
-      "Коммерция"
+      "Маркетинг",
+      "Экономика"
     ],
     "title": "Tемпы роста объемов продаж и доходов",
     "url": "/blog-details-standard-free",
-    "author": "Ибрагим",
+    "author": "Мохъмад",
     "authorUrl": "/blog-standard"
   }
 ]

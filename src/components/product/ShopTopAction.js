@@ -15,16 +15,15 @@ const ShopTopAction = ({
           <select
             onChange={e => getFilterSortParams("filterSort", e.target.value)}
           >
-            <option value="default">Default</option>
-            <option value="priceHighToLow">Price - High to Low</option>
-            <option value="priceLowToHigh">Price - Low to High</option>
+            <option value="default">По умолчанию</option>
+            <option value="priceHighToLow">Цена - от высокой к низкой</option>
+            <option value="priceLowToHigh">Цена - от низкой к высокой</option>
           </select>
         </div>
         <p>
-          Showing {sortedProductCount} of {productCount} result
+          Показаны {sortedProductCount} из {productCount} товаров
         </p>
       </div>
-
       <div className="shop-tab">
         <button
           onClick={e => {

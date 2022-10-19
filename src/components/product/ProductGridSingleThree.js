@@ -32,9 +32,8 @@ const ProductGridSingleThree = ({
         className={`custom2-col-5 ${sliderClassName ? sliderClassName : ""}`}
       >
         <div
-          className={`product-wrap-2 pro-glaucous-color ${
-            spaceBottomClass ? spaceBottomClass : ""
-          }`}
+          className={`product-wrap-2 pro-glaucous-color ${spaceBottomClass ? spaceBottomClass : ""
+            }`}
         >
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
@@ -94,7 +93,7 @@ const ProductGridSingleThree = ({
                   }
                   disabled={cartItem !== undefined && cartItem.quantity > 0}
                   title={
-                    cartItem !== undefined ? "Added to cart" : "Add to cart"
+                    cartItem !== undefined ? "Добавлено в корзину" : "Добавить "
                   }
                 >
                   {" "}
@@ -115,7 +114,7 @@ const ProductGridSingleThree = ({
                 disabled={compareItem !== undefined}
                 title={
                   compareItem !== undefined
-                    ? "Added to compare"
+                    ? "Добавлен to compare"
                     : "Add to compare"
                 }
                 onClick={() => addToCompare(product, addToast)}
@@ -152,8 +151,8 @@ const ProductGridSingleThree = ({
                 disabled={wishlistItem !== undefined}
                 title={
                   wishlistItem !== undefined
-                    ? "Added to wishlist"
-                    : "Add to wishlist"
+                    ? "Добавлено в избранные"
+                    : "Добавить в избранные"
                 }
                 onClick={() => addToWishlist(product, addToast)}
               >

@@ -31,16 +31,13 @@ const ProductGridSingleTen = ({
   return (
     <Fragment>
       <div
-        className={`col-md-6 col-lg-4 col-sm-6 ${
-          sliderClassName ? sliderClassName : ""
-        }`}
+        className={`col-md-6 col-lg-4 col-sm-6 ${sliderClassName ? sliderClassName : ""
+          }`}
       >
         <div
-          className={`product-wrap-10 ${
-            spaceBottomClass ? spaceBottomClass : ""
-          } ${colorClass ? colorClass : ""} ${
-            productGridStyleClass ? productGridStyleClass : ""
-          } `}
+          className={`product-wrap-10 ${spaceBottomClass ? spaceBottomClass : ""
+            } ${colorClass ? colorClass : ""} ${productGridStyleClass ? productGridStyleClass : ""
+            } `}
         >
           <div className="product-img">
             <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
@@ -96,7 +93,7 @@ const ProductGridSingleTen = ({
                   }
                   disabled={cartItem !== undefined && cartItem.quantity > 0}
                   title={
-                    cartItem !== undefined ? "Added to cart" : "Add to cart"
+                    cartItem !== undefined ? "Добавлено в корзину" : "Добавить "
                   }
                 >
                   {" "}
@@ -117,7 +114,7 @@ const ProductGridSingleTen = ({
                 disabled={compareItem !== undefined}
                 title={
                   compareItem !== undefined
-                    ? "Added to compare"
+                    ? "Добавлен to compare"
                     : "Add to compare"
                 }
                 onClick={() => addToCompare(product, addToast)}
@@ -129,8 +126,8 @@ const ProductGridSingleTen = ({
                 disabled={wishlistItem !== undefined}
                 title={
                   wishlistItem !== undefined
-                    ? "Added to wishlist"
-                    : "Add to wishlist"
+                    ? "Добавлено в избранные"
+                    : "Добавить в избранные"
                 }
                 onClick={() => addToWishlist(product, addToast)}
               >
