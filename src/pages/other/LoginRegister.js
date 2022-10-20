@@ -14,15 +14,15 @@ const LoginRegister = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Login</title>
+        <title>AVTO-EXPORT | Login</title>
         <meta
           name="description"
           content="Compare page of flone react minimalist eCommerce template."
         />
       </MetaTags>
-      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Home</BreadcrumbsItem>
+      <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Главная</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Login Register
+        Регистрация
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
@@ -36,12 +36,12 @@ const LoginRegister = ({ location }) => {
                     <Nav variant="pills" className="login-register-tab-list">
                       <Nav.Item>
                         <Nav.Link eventKey="login">
-                          <h4>Login</h4>
+                          <h4>Логин</h4>
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="register">
-                          <h4>Register</h4>
+                          <h4>Регистрация</h4>
                         </Nav.Link>
                       </Nav.Item>
                     </Nav>
@@ -53,23 +53,23 @@ const LoginRegister = ({ location }) => {
                               <input
                                 type="text"
                                 name="user-name"
-                                placeholder="Username"
+                                placeholder="Имя"
                               />
                               <input
                                 type="password"
                                 name="user-password"
-                                placeholder="Password"
+                                placeholder="Пароль"
                               />
                               <div className="button-box">
                                 <div className="login-toggle-btn">
                                   <input type="checkbox" />
-                                  <label className="ml-10">Remember me</label>
+                                  <label className="ml-10">Запомнить меня</label>
                                   <Link to={process.env.PUBLIC_URL + "/"}>
-                                    Forgot Password?
+                                    Забыли пароль?
                                   </Link>
                                 </div>
                                 <button type="submit">
-                                  <span>Login</span>
+                                  <span>Войти</span>
                                 </button>
                               </div>
                             </form>
@@ -83,21 +83,21 @@ const LoginRegister = ({ location }) => {
                               <input
                                 type="text"
                                 name="user-name"
-                                placeholder="Username"
+                                placeholder="Имя"
                               />
                               <input
                                 type="password"
                                 name="user-password"
-                                placeholder="Password"
+                                placeholder="Пароль"
                               />
                               <input
                                 name="user-email"
-                                placeholder="Email"
+                                placeholder="Эл.почта"
                                 type="email"
                               />
                               <div className="button-box">
                                 <button type="submit">
-                                  <span>Register</span>
+                                  <span>Регистрация</span>
                                 </button>
                               </div>
                             </form>
