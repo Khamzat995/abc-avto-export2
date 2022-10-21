@@ -24,18 +24,18 @@ const CustomForm = ({ status, message, onValidated }) => {
             className="email"
             ref={node => (email = node)}
             type="email"
-            placeholder="Enter your email address..."
+            placeholder="Введите Ваш адрес эл.почты..."
           />
         </div>
         <div className="clear">
           <button className="button" onClick={submit}>
-            SUBSCRIBE
+            ПОДПИСАТЬСЯ
           </button>
         </div>
       </div>
 
       {status === "sending" && (
-        <div style={{ color: "#3498db", fontSize: "12px" }}>sending...</div>
+        <div style={{ color: "#3498db", fontSize: "12px" }}>отправка...</div>
       )}
       {status === "error" && (
         <div

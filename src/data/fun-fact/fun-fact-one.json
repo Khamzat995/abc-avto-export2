@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "iconClass": "pe-7s-portfolio",
-    "countNum": 360,
-    "title": "project done"
+    "iconClass": "pe-7s-note2",
+    "countNum": 936,
+    "title": "Заключенных договоров"
   },
   {
     "id": "2",
-    "iconClass": "pe-7s-cup",
-    "countNum": 690,
-    "title": "cups of coffee"
+    "iconClass": "pe-7s-portfolio",
+    "countNum": 795,
+    "title": "Выполненых заказов"
   },
   {
     "id": "3",
-    "iconClass": "pe-7s-light",
+    "iconClass": "pe-7s-global",
     "countNum": 100,
-    "title": "branding"
+    "title": "Мировых брендов"
   },
   {
     "id": "4",
     "iconClass": "pe-7s-smile",
     "countNum": 420,
-    "title": "happy clients"
+    "title": "Счастливых клиентов"
   }
 ]

@@ -42,7 +42,7 @@
 
       margin: 0;
 
-      color: #915342;
+      color: #fdd700;
       @media #{$md-layout} {
         font-size: 27px;
       }
@@ -57,7 +57,7 @@
 
       margin: 3px 0 58px;
 
-      color: #010101;
+      color: white;
       @media #{$lg-layout} {
         margin: 3px 0 25px;
       }
@@ -71,7 +71,7 @@
         margin: 3px 0 20px;
       }
       span {
-        font-size: 20px;
+        font-size: 24px;
         line-height: 1;
 
         position: relative;
@@ -81,7 +81,7 @@
 
         margin: 0 0 0 2px;
 
-        color: #935644;
+        color: #fdd700;
       }
     }
     a {
@@ -94,8 +94,8 @@
 
       text-align: center;
 
-      color: #97584a;
-      border: 2px solid #97584a;
+      color: white;
+      border: 2px solid white;
       border-radius: 100%;
       i {
         line-height: 25px;
@@ -791,8 +791,8 @@
         line-height: 28px;
       }
       @media #{$xs-layout} {
-        font-size: 32px;
-        line-height: 28px;
+        font-size: 24px;
+        line-height: 24px;
       }
     }
   }
@@ -1375,7 +1375,7 @@
         font-size: 26px;
       }
       @media #{$xs-layout} {
-        font-size: 26px;
+        font-size: 18px;
       }
     }
   }

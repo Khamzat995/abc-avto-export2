@@ -49,7 +49,7 @@ const NotFound = ({ location }) => {
                     </button>
                   </form>
                   <Link to={process.env.PUBLIC_URL + "/"} className="error-btn">
-                    Вернуться на главную страницу
+                    <i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Вернуться на главную страницу
                   </Link>
                 </div>
               </div>

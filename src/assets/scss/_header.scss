@@ -199,7 +199,7 @@
               padding-top: 0;
 
               text-align: left;
-              text-transform: capitalize;
+              /* text-transform: capitalize; */
 
               color: #333;
               &:hover {
@@ -2310,6 +2310,7 @@
         padding: 10px 0;
 
         color: #111;
+        
         &:hover {
           color: $theme-color;
         }
@@ -2346,7 +2347,7 @@
     }
     li {
       a {
-        text-transform: uppercase;
+        text-transform: none;
       }
 
 

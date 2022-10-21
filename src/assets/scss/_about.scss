@@ -85,7 +85,6 @@
   span {
     color: #333;
     font-size: 20px;
-    text-transform: capitalize;
     font-weight: 500;
   }
 }
@@ -173,7 +172,7 @@
     font-size: 25px;
     font-weight: 500;
     margin: 0 0 20px;
-    text-transform: capitalize;
+   /*  text-transform: capitalize; */
     line-height: 22px;
     color: #333;
     @media #{$xs-layout} {

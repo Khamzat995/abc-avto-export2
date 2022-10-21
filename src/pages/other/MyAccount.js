@@ -13,7 +13,7 @@ const MyAccount = ({ location }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>AVTO-EXPORT | Мой счет</title>
+        <title>AVTO-EXPORT | Мой аккаунт</title>
         <meta
           name="description"
           content="Compare page of flone react minimalist eCommerce template."
@@ -21,7 +21,7 @@ const MyAccount = ({ location }) => {
       </MetaTags>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + "/"}>Главная</BreadcrumbsItem>
       <BreadcrumbsItem to={process.env.PUBLIC_URL + pathname}>
-        Мой счет
+        Мой аккаунт
       </BreadcrumbsItem>
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}

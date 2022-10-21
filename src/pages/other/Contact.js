@@ -65,23 +65,23 @@ const Contact = ({ location }) => {
                     <h3>Подписаться</h3>
                     <ul>
                       <li>
-                        <a href="//facebook.com">
-                          <i className="fa fa-facebook" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="//pinterest.com">
-                          <i className="fa fa-pinterest-p" />
-                        </a>
-                      </li>
-                      <li>
                         <a href="//thumblr.com">
-                          <i className="fa fa-tumblr" />
+                          <i className="fa fa-whatsapp" />
                         </a>
                       </li>
                       <li>
                         <a href="//vimeo.com">
-                          <i className="fa fa-vimeo" />
+                          <i className="fa fa-telegram" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="//pinterest.com">
+                          <i className="fa fa-instagram" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="//facebook.com">
+                          <i className="fa fa-facebook" />
                         </a>
                       </li>
                       <li>

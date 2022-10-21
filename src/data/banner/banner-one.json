@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/banner/banner-1.jpg",
-    "title": "Watches",
-    "subtitle": "Starting at",
-    "price": "$99.00",
-    "link": "/shop-grid-standard"
+    "image": "/assets/img/banner/370_215turc2.webp",
+    "title": "Стамбул",
+    "subtitle": "квартиры и апартаменты от",
+    "price": "99.000$",
+    "link": "https://istanbul-expert.com/products/63358a2429e57a2834c2c6ad"
   },
   {
     "id": 2,
-    "image": "/assets/img/banner/banner-2.jpg",
-    "title": "Plo Bag",
-    "subtitle": "Starting at",
-    "price": "$79.00",
-    "link": "/shop-grid-standard"
+    "image": "/assets/img/banner/370_215turc3.webp",
+    "title": "Турция",
+    "subtitle": "недвижимость от",
+    "price": "75.000$",
+    "link": "https://istanbul-expert.com/products/63356ea829e57a2834c2c6a5"
   },
   {
     "id": 3,
-    "image": "/assets/img/banner/banner-3.jpg",
-    "title": "Sunglass",
-    "subtitle": "Starting at",
-    "price": "$29.00",
-    "link": "/shop-grid-standard"
+    "image": "/assets/img/banner/370_215_foto.webp",
+    "title": "Виллы",
+    "subtitle": "у моря в Турции от",
+    "price": "1.160.000$",
+    "link": "https://istanbul-expert.com/products/6339d060a2a5703fc8dbd4b2"
   }
 ]
