@@ -94,9 +94,11 @@ const LanguageCurrencyChanger = ({
           </ul>
         </div>
       </div>
-      <div className="same-language-currency">
-        <p style={{ color: "#ffd700", marginRight: "10px" }}>Заказать звонок </p> +90 544 543 7677
-      </div>
+      <a href="tel:+905445437677">
+        <div className="same-language-currency">
+          <p style={{ color: "#ffd700", marginRight: "10px" }}>Заказать звонок </p> +90 544 543 7677
+        </div>
+      </a>
     </div>
   );
 };

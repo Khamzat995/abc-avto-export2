@@ -38,8 +38,10 @@ const Contact = ({ location }) => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+90 544 543 7677</p>
-                      <p>+90 552 286 8989</p>
+                      <a href="tel:+905445437677">
+                        <p>+90 544 543 7677</p></a>
+                      <a href="tel:+905522868989">
+                        <p>+90 552 286 8989</p></a>
                     </div>
                   </div>
                   <div className="single-contact-info">

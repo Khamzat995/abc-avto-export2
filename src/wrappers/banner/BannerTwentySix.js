@@ -23,7 +23,7 @@ const BannerTwentySix = ({ spaceBottomClass }) => {
                   Castrol <br />
                   скидка 10%
                 </h2>
-                <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                <Link to={process.env.PUBLIC_URL + "/shop-grid-two-column"}>
                   Посмотреть
                 </Link>
               </div>

@@ -83,13 +83,13 @@ const MenuCart = ({ cartData, currency, deleteFromCart }) => {
           </div>
           <div className="shopping-cart-btn btn-hover text-center">
             <Link className="default-btn" to={process.env.PUBLIC_URL + "/cart"}>
-              view cart
+              просмотреть корзину
             </Link>
             <Link
               className="default-btn"
               to={process.env.PUBLIC_URL + "/checkout"}
             >
-              checkout
+              проверить
             </Link>
           </div>
         </Fragment>

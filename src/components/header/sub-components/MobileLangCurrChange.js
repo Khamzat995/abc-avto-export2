@@ -30,7 +30,7 @@ const MobileLangCurrChange = ({
   return (
     <div className="mobile-menu-middle">
       <div className="lang-curr-style">
-        <span className="title mb-2">Choose Language </span>
+        <span className="title mb-2">Выберите язык</span>
         <select
           value={currentLanguageCode}
           onChange={e => {
@@ -46,7 +46,7 @@ const MobileLangCurrChange = ({
         </select>
       </div>
       <div className="lang-curr-style">
-        <span className="title mb-2">Choose Currency</span>
+        <span className="title mb-2">Выберите валюту</span>
         <select
           value={currency.currencyName}
           onChange={e => {
