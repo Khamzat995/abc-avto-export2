@@ -58,7 +58,7 @@ const FooterOne = ({
                     <Link to={process.env.PUBLIC_URL + "/about"}>Кампания</Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
+                    <Link to={process.env.PUBLIC_URL + "/contact"}>
                       Локация
                     </Link>
                   </li>
@@ -126,25 +126,25 @@ const FooterOne = ({
                 <ul>
                   <li>
                     <a
-                      href="//www.facebook.com"
+                      href="https://wa.me/905522868989"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Facebook
+                      WhatsApp
                     </a>
                   </li>
                   <li>
                     <a
-                      href="//www.twitter.com"
+                      href="https://t.me/istanbul_exp"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Twitter
+                      Telegram
                     </a>
                   </li>
                   <li>
                     <a
-                      href="//www.instagram.com"
+                      href="https://instagram.com/istanbul_expert/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -153,7 +153,7 @@ const FooterOne = ({
                   </li>
                   <li>
                     <a
-                      href="//www.youtube.com"
+                      href="https://www.youtube.com/channel/UCR58sPLCgfgkZ0BDs9TKeCQ"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

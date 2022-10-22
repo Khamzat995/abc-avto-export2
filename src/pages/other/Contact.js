@@ -65,23 +65,23 @@ const Contact = ({ location }) => {
                     <h3>Подписаться</h3>
                     <ul>
                       <li>
-                        <a href="//thumblr.com">
+                        <a href="https://wa.me/905522868989">
                           <i className="fa fa-whatsapp" />
                         </a>
                       </li>
                       <li>
-                        <a href="//vimeo.com">
+                        <a href="https://t.me/istanbul_exp">
                           <i className="fa fa-telegram" />
                         </a>
                       </li>
                       <li>
-                        <a href="//pinterest.com">
+                        <a href="https://instagram.com/istanbul_expert/">
                           <i className="fa fa-instagram" />
                         </a>
                       </li>
                       <li>
-                        <a href="//facebook.com">
-                          <i className="fa fa-facebook" />
+                        <a href="https://www.youtube.com/channel/UCR58sPLCgfgkZ0BDs9TKeCQ">
+                          <i className="fa fa-youtube" />
                         </a>
                       </li>
                       <li>
