@@ -12,14 +12,14 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
             <Nav variant="pills" className="description-review-topbar">
               <Nav.Item>
                 <Nav.Link eventKey="additionalInfo">
-                  Additional Information
+                  Дополнительная информация
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="productDescription">Description</Nav.Link>
+                <Nav.Link eventKey="productDescription">Описание</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="productReviews">Reviews(2)</Nav.Link>
+                <Nav.Link eventKey="productReviews">Отзывы(2)</Nav.Link>
               </Nav.Item>
             </Nav>
             <Tab.Content className="description-review-bottom">
@@ -27,17 +27,16 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                 <div className="product-anotherinfo-wrapper">
                   <ul>
                     <li>
-                      <span>Weight</span> 400 g
+                      <span>Год выпуска</span>2022
                     </li>
                     <li>
-                      <span>Dimensions</span>10 x 10 x 15 cm{" "}
+                      <span>Масса</span>8136 кг.{" "}
                     </li>
                     <li>
-                      <span>Materials</span> 60% cotton, 40% polyester
+                      <span>Глубина копания</span> 5460 мм
                     </li>
                     <li>
-                      <span>Other Info</span> American heirloom jean shorts pug
-                      seitan letterpress
+                      <span>Объём ковша </span> 1,5 м³.
                     </li>
                   </ul>
                 </div>
@@ -54,7 +53,7 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                           <img
                             src={
                               process.env.PUBLIC_URL +
-                              "/assets/img/testimonial/1.jpg"
+                              "/assets/img/blog/lico.webp"
                             }
                             alt=""
                           />
@@ -63,7 +62,7 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                           <div className="review-top-wrap">
                             <div className="review-left">
                               <div className="review-name">
-                                <h4>White Lewis</h4>
+                                <h4>Ahmet  Yilmaz </h4>
                               </div>
                               <div className="review-rating">
                                 <i className="fa fa-star" />
@@ -74,15 +73,16 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                               </div>
                             </div>
                             <div className="review-left">
-                              <button>Reply</button>
+                              <button>Ответить</button>
                             </div>
                           </div>
                           <div className="review-bottom">
                             <p>
-                              Vestibulum ante ipsum primis aucibus orci
-                              luctustrices posuere cubilia Curae Suspendisse
-                              viverra ed viverra. Mauris ullarper euismod
-                              vehicula. Phasellus quam nisi, congue id nulla.
+                              Я 8 лет работал на гусеничном экскаваторе с коротким радиусом
+                              действия таким как HMK 145 LC SR серии H4. Он обеспечивает
+                              для пользователя максимальную эффективность и
+                              производительность благодаря превосходной маневренности и
+                              простоте использования.
                             </p>
                           </div>
                         </div>
@@ -92,7 +92,7 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                           <img
                             src={
                               process.env.PUBLIC_URL +
-                              "/assets/img/testimonial/2.jpg"
+                              "/assets/img/blog/lico1.webp"
                             }
                             alt=""
                           />
@@ -101,7 +101,7 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                           <div className="review-top-wrap">
                             <div className="review-left">
                               <div className="review-name">
-                                <h4>White Lewis</h4>
+                                <h4>Ibrahim  Demir </h4>
                               </div>
                               <div className="review-rating">
                                 <i className="fa fa-star" />
@@ -112,15 +112,14 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                               </div>
                             </div>
                             <div className="review-left">
-                              <button>Reply</button>
+                              <button>Ответить</button>
                             </div>
                           </div>
                           <div className="review-bottom">
                             <p>
-                              Vestibulum ante ipsum primis aucibus orci
-                              luctustrices posuere cubilia Curae Suspendisse
-                              viverra ed viverra. Mauris ullarper euismod
-                              vehicula. Phasellus quam nisi, congue id nulla.
+                              Думаю это достигается за счет высокопроизводительного
+                              двигателя, скорости движения и малого радиуса поворота.
+                              Я тоже не раз сталкивался с такой спецтехникой.
                             </p>
                           </div>
                         </div>
@@ -129,11 +128,11 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                   </div>
                   <div className="col-lg-5">
                     <div className="ratting-form-wrapper pl-50">
-                      <h3>Add a Review</h3>
+                      <h3>Добавить отзыв</h3>
                       <div className="ratting-form">
                         <form action="#">
                           <div className="star-box">
-                            <span>Your rating:</span>
+                            <span>Ваш рейтинг:</span>
                             <div className="ratting-star">
                               <i className="fa fa-star" />
                               <i className="fa fa-star" />
@@ -145,19 +144,19 @@ const ProductDescriptionTab = ({ spaceBottomClass, productFullDesc }) => {
                           <div className="row">
                             <div className="col-md-6">
                               <div className="rating-form-style mb-10">
-                                <input placeholder="Name" type="text" />
+                                <input placeholder="Имя" type="text" />
                               </div>
                             </div>
                             <div className="col-md-6">
                               <div className="rating-form-style mb-10">
-                                <input placeholder="Email" type="email" />
+                                <input placeholder="Электронная почта" type="email" />
                               </div>
                             </div>
                             <div className="col-md-12">
                               <div className="rating-form-style form-submit">
                                 <textarea
                                   name="Your Review"
-                                  placeholder="Message"
+                                  placeholder="Сообщение..."
                                   defaultValue={""}
                                 />
                                 <input type="submit" defaultValue="Submit" />

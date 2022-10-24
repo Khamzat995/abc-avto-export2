@@ -232,7 +232,7 @@ const ProductDescriptionInfo = ({
       )}
       {product.category ? (
         <div className="pro-details-meta">
-          <span>Categories :</span>
+          <span>Категория :</span>
           <ul>
             {product.category.map((single, key) => {
               return (
@@ -250,7 +250,7 @@ const ProductDescriptionInfo = ({
       )}
       {product.tag ? (
         <div className="pro-details-meta">
-          <span>Tags :</span>
+          <span>Теги :</span>
           <ul>
             {product.tag.map((single, key) => {
               return (
