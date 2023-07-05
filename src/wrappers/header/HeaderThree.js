@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { setCurrency } from "../../redux/actions/currencyActions";
-import { multilanguage } from "redux-multilanguage";
+/* import { multilanguage } from "redux-multilanguage"; */
 import Logo from "../../components/header/Logo";
 import IconGroup from "../../components/header/IconGroup";
 import NavMenu from "../../components/header/NavMenu";
@@ -49,12 +49,11 @@ const HeaderThree = ({
         </div>
       </div>
       <div
-        className={`header-bottom sticky-bar header-res-padding header-padding-2 ${
-          scroll > headerTop ? "stick" : ""
-        }`}
+        className={`header-bottom sticky-bar header-res-padding header-padding-2 ${scroll > headerTop ? "stick" : ""
+          }`}
       >
         <div className="container">
-          <div className="row">
+          <div className="row navupdate">
             <div className="col-xl-12 col-lg-12 col-6">
               <div className="center-menu-logo text-left text-lg-center">
                 {/* header logo */}
@@ -65,7 +64,7 @@ const HeaderThree = ({
               {/* Icon group */}
               <IconGroup />
             </div>
-            <div className="col-xl-12 col-lg-12 d-none d-lg-block">
+            <div className="col-xl-12 col-lg-12 d-none d-lg-block ">
               {/* Nav menu */}
               <NavMenu />
             </div>
@@ -102,4 +101,5 @@ const mapDispatchToProps = dispatch => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(multilanguage(HeaderThree));
+)(HeaderThree);
+/* )(multilanguage(HeaderThree)); */

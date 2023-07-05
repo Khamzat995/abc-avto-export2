@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { setCurrency } from "../../redux/actions/currencyActions";
-import { multilanguage } from "redux-multilanguage";
+/* import { multilanguage } from "redux-multilanguage"; */
 import Logo from "../../components/header/Logo";
 import IconGroup from "../../components/header/IconGroup";
 import NavMenu from "../../components/header/NavMenu";
@@ -60,9 +60,8 @@ const HeaderTwo = ({
         </div>
       </div>
       <div
-        className={`header-bottom sticky-bar header-res-padding header-padding-2 ${
-          scroll > headerTop ? "stick" : ""
-        }`}
+        className={`header-bottom sticky-bar header-res-padding header-padding-2 ${scroll > headerTop ? "stick" : ""
+          }`}
       >
         <div className="container">
           <div className="row">
@@ -111,4 +110,5 @@ const mapDispatchToProps = dispatch => {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(multilanguage(HeaderTwo));
+)(HeaderTwo);
+/* )(multilanguage(HeaderTwo)); */

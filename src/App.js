@@ -3,7 +3,8 @@ import React, { useEffect, Suspense, lazy } from "react";
 import ScrollToTop from "./helpers/scroll-top";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ToastProvider } from "react-toast-notifications";
-import { multilanguage, loadLanguages } from "redux-multilanguage";
+/* import { multilanguage, loadLanguages } from "redux-multilanguage"; */
+import { loadLanguages } from "redux-multilanguage";
 import { connect } from "react-redux";
 import { BreadcrumbsProvider } from "react-breadcrumbs-dynamic";
 import { loadCurrency } from "./redux/actions/currencyActions";
@@ -484,4 +485,5 @@ App.propTypes = {
   dispatch: PropTypes.func
 };
 
-export default connect()(multilanguage(App));
+export default connect()(App);
+/* export default connect()(multilanguage(App)); */

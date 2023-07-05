@@ -22,8 +22,8 @@ const MedicalContact = () => {
               <div className="col-lg-3 col-md-2">
                 <div className="medical-shape-img">
                   <a href="tel:+905445437677">
-                    <div class="pulse">
-                      <i class="fa fa-phone"></i>
+                    <div className="pulse">
+                      <i className="fa fa-phone"></i>
                     </div>
                   </a>
                 </div>
